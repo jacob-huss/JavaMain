@@ -1,4 +1,5 @@
 
+
 /**
  * MainR
  */
@@ -71,19 +72,51 @@ public class MainR {
         // }
 
         // capital vowel
-        String str = "This is a very long and completely meaningless string that servers no purpose.";
+        // String str = "This is a very long and completely meaningless string that
+        // serves no purpose.";
+        // char[] c = str.toCharArray();
 
-        char[] c = str.toCharArray();
+        // for (int i = 0; i < c.length; i++) {
+        // switch (c[i]) {
+        // case 'a':
+        // c[i] = 'A';
+        // break;
+        // case 'e':
+        // c[i] = 'E';
+        // break;
+        // case 'i':
+        // c[i] = 'I';
+        // break;
+        // case 'o':
+        // c[i] = 'O';
+        // break;
+        // case 'u':
+        // c[i] = 'U';
+        // break;
+        // default:
+        // break;
 
-        enum
-        Vowels{A,E,I,O,U,a,e,i,o,u}
+        // }System.out.println(c[i]);
 
-        for (int i = 0; i < c.length; i++) {
-            for (Vowels v : Vowels.values()) {
-                if ((str.charAt(i) + "").equalsIgnoreCase(v.name())) {
-                    System.out.println(str.charAt(i));
-                }
-            }
-        }
+        // }
+
+        // asterik pyramid
+
+
+        // for (int i = 0; i < 5; i++) {
+        //     for (int j = 0; j < 5 - i; j++) {
+                
+        //     }
+        //     for (int k = 0; k <= i; k++) {
+        //         System.out.print("* ");
+        //     }
+        //     System.out.println();
+
+            
+
+        // }
+        
+        
+
     }
 }
