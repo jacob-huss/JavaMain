@@ -1,0 +1,13 @@
+package notes;
+
+/**
+ * Classes
+ */
+public class Main {
+    public void main(String[] args) {
+        
+        
+    }
+
+    
+}
